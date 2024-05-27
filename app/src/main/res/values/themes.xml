@@ -1,0 +1,65 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyApplication" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="android:statusBarColor">@color/white</item>
+    </style>
+
+    <style name="Theme.MyApplication" parent="Base.Theme.MyApplication" />
+
+    <style name="TextColorImportant">
+        <item name="android:textColor">@color/textColorImportantLight</item>
+    </style>
+
+    <style name="BackgroundColor">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="IconColorTheme">
+        <item name="android:tint">@color/black</item>
+        <item name="android:src">@drawable/dark_icon</item>
+    </style>
+
+    <style name="IconColor">
+        <item name="android:tint">@color/black</item>
+    </style>
+
+    <style name="TextColor">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="TextColorSub">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/textColorSubLight</item>
+    </style>
+
+    <style name="ButtonNumber" >
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:backgroundTint">@color/buttonNumberLight</item>
+        <item name="android:tint">@color/black</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:padding">0dp</item>
+
+    </style>
+
+    <style name="ButtonOperation" >
+        <item name="android:textColor">@color/textColorImportantLight</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:backgroundTint">@color/buttonNumberLight</item>
+        <item name="android:tint">@color/textColorImportantLight</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:padding">0dp</item>
+    </style>
+
+    <style name="BottomSheet" >
+        <item name="android:backgroundTint">@color/bottomSheetLight</item>
+    </style>
+</resources>

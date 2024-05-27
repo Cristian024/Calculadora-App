@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Light theme -->
+
+    <color name="textColorImportantLight">#0C4A55</color>
+    <color name="textColorSubLight">#5A5A5A</color>
+    <color name="buttonNumberLight">#FAFAFA</color>
+    <color name="bottomSheetLight">#F3F3F3</color>
+
+    <!-- Dark theme -->
+
+    <color name="textColorImportantDark">#CA5212</color>
+    <color name="textColorSubDark">#8B8B8B</color>
+    <color name="buttonNumberDark">#0E0E0E</color>
+    <color name="bottomSheetDark">#090909</color>
+
+</resources>
